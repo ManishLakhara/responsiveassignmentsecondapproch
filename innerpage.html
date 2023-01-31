@@ -1,0 +1,418 @@
+<html5 lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/custom.js"></script>
+        <title>Analysis</title>
+    </head>
+    <body>
+      <nav>
+        <div class="container-fluid align-self-center" id="dheader">
+          <div class="row">
+            <div class="col-md-2 align-self-center">
+              <a href="login.html">
+                <div class="row justify-content-evenly">
+                  <div class="col-sm-3">
+                    <img src="images/menu-bar.svg" alt="" class="px-2">
+                  </div>
+                  <div class="col-sm-9">
+                    <img src="images/header-logo.svg " alt="" >
+                  </div>
+                </div>
+              </a>
+            </div>
+                            <div class="col-md-6 align-self-center">
+                              <div class="row">
+                                <div class="col-1 align-self-center">
+                                  <a href="#"><img src="images/search-icon.svg" height="25" width="25" alt=""></a>
+                                </div>
+                                <div class="col-11">
+                                  <input type="text" name="search" id="dsearch" placeholder="Search" class="form-control">
+                                </div>
+                              </div>
+                              </div>
+                              
+            <div class="col-md-4">
+              <div class="row ">
+                <div class="col align-self-end">
+                  <img src="images/notification-icon.svg" alt="">
+                  <img src="images/profile.png" alt="" class="m-2">
+                  <div class="btn-group">
+                    <button class="btn btn-secondary btn-sm dropdown-toggle" id="ddropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      John Doe
+                    </button>
+                    <div class="dropdown-menu">
+                      ...
+                    </div>
+                </div>
+              </div>
+                  <!-- <img src="images/notification-icon.svg" alt="">
+                  <img src="images/profile.png" alt="" class="m-2">
+                <div class="btn-group">
+                  <button class="btn btn-secondary btn-sm dropdown-toggle" id="ddropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    John Doe
+                  </button>
+                  <div class="dropdown-menu">
+                    ...
+                  </div>
+                </div> -->
+              
+            </div>
+          
+          
+          
+          </div>
+        </div>
+      </nav>
+        <div class="container-fluid" id="dsecondcontainer">
+          <div class="row">
+            <div class="col-md-2" id="dlayer1">
+              <!--This is layer1-->
+              <a href="dashboard.html">
+              <button type="button" class="btn  btn-lg">
+                <img src="images/dashboard-default.svg" height="16px" width="16px" alt="">
+                &nbsp;&nbsp;Dashboard</button>
+              </a><br>
+              <a href="innerpage.html">
+              <button type="button" class="btn  btn-lg" id="dselected">
+                <img src="images/graph-active.svg" height="16px" width="16px" alt="">
+                &nbsp;&nbsp;Analysis</button>
+              </a><br>
+              <a href="notfound.html">
+              <button type="button" class="btn  btn-lg">
+                <img src="images/inbox-default.svg" height="16px" width="16px" alt="">
+                &nbsp;&nbsp;Inbox</button></a><br>
+                <a href="notfound.html">
+              <button type="button" class="btn  btn-lg">
+                <img src="images/clock-default.svg"  height="16px" width="16px"  alt="">
+                &nbsp;&nbsp;History</button></a><br>
+                <a href="notfound.html">
+              <button type="button" class="btn  btn-lg">
+                <img src="images/user-default.svg" height="16px" width="16px" alt="">
+                &nbsp;&nbsp;Users</button></a><br>
+                <a href="notfound.html">
+              <button type="button" class="btn  btn-lg">
+                <img src="images/maintenance-default.svg" height="16px" width="16px"  alt="">
+                &nbsp;&nbsp;Maintenance</button></a><br>
+                <a href="notfound.html">
+              <button type="button" class="btn  btn-lg">
+                <img src="images/setting-default.svg" height="16px" width="16px"  alt="">
+                &nbsp;&nbsp;Setting</button></a><br>
+      
+            </div>
+            <div class="col-md-10 " id="dlayer2">
+              <!--This is layer2-->
+              <H1>Analysis</H1>
+              <br><br>
+              <div class="container m-1" id="acontainer">
+                <div class="row">
+                    <div class="col">
+                        <h3>One Column</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-floating col">
+                        <input class="form-control form-control-lg" id="floatingtextarea" type="text" placeholder="Name">
+                        <label class="height" for="floatingtextarea">&nbsp;&nbsp;Name</label> 
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <select class="form-control form-control-lg">
+                            <option>Dropdown</option>
+                            <option>Option-1</option>
+                            <option>Option-2</option>
+                          </select>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <textarea class="form-control form-control-lg" aria-label="With textarea" placeholder="Multiple line"></textarea>
+                    </div>
+                </div>
+                <br><br>
+                <h3>Two Column</h3>
+                <div class="row">
+                    <div class="form-floating col-md-6">
+                        <input class="form-control form-control-lg" id="floatingtextarea2" type="text" placeholder="Name">
+                        <label for="floatingtextarea2">&nbsp;&nbsp;Name</label>
+                    </div>
+                    <div class="form-floating col-md-6">
+                        <input class="form-control form-control-lg" id="flaotingtextarea3" type="text" placeholder="Username">
+                        <label for="floatingtextarea3">&nbsp;&nbsp;Username</label>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="form-floating col-md-6"> 
+                        <input type="password" class="form-control form-control-lg" id="floatingtextarea4" placeholder="Password">
+                        <label for="floatingtextarea4">&nbsp;&nbsp;Password</label>
+                    </div>        
+                    <div class="col-md-6"> 
+                        <select class="form-control form-control-lg">
+                            <option>Dropdown</option>
+                            <option>Dropdown</option>
+                            <option>Dropdown</option>
+                          </select>
+                    </div> 
+                </div>
+                <br><br>
+                <h3>Three Column</h3>
+            
+                <div class="row">
+                    <div class="form-floating col-md-4">
+                        <input class="form-control form-control-lg" id="floatingtextarea5" type="text" placeholder="Name">
+                        <label for="floatingtextarea5">&nbsp;&nbsp;Name</label>
+                    </div>
+                    <div class="form-floating col-md-4">
+                        <input class="form-control form-control-lg" id="floatingtextarea6" type="text" placeholder="Password">
+                        <label for="floatingtextarea6">&nbsp;&nbsp;Password</label>
+                    </div> 
+                    <div class="form-floating col-md-4">
+                        <input class="form-control form-control-lg" id="adisabled" type="text" placeholder="Disabled">
+                        <label for="adisabled">&nbsp;&nbsp;Disabled</label>
+                    </div>
+                </div>
+                <br><br>
+                <h3>Four Column</h3>
+                <div class="row">
+                    <div class="form-floating col-md-3">
+                        <input class="form-control form-control-lg" id="floatingtextarea7" type="text" placeholder="Designation">
+                        <label for="floatingtextarea7">&nbsp;&nbsp;Designation</label>
+                    </div>
+                    <div class="form-floating col-md-3">
+                        <input class="form-control form-control-lg" id="floatingtextarea8" type="text" placeholder="Name">
+                        <label for="floatingtextarea8">&nbsp;&nbsp;Name</label>
+                    </div>
+                    <div class="form-floating col-md-3">
+                        <input class="form-control form-control-lg" id="floatingtextarea9" type="text" placeholder="Username">
+                        <label for="floatingtextarea9">&nbsp;&nbsp;Username</label>
+                    </div>
+                    <div class="col-md-3">
+                        <select class="form-control form-control-lg">
+                            <option>Select</option>
+                            <option>Dropdown</option>
+                            <option>Dropdown</option>
+                          </select>
+                    </div>
+                </div>
+                <br><br>
+                <h3>Other Design Elements</h3>
+                <br>
+                <h4>File Upload</h4>
+                <div class="row justify-content-start">
+                    <div class="col-md-2">
+                        <button type="button" class="btn btn-outline" id="upload">
+                            <img src="images/cloud-upload-icon.svg" id="uploadicon" style="color:red" class="iconsize" alt="">
+                            Upload</button>
+                    </div>        
+                    <div class="col-md-2 align-self-end">
+                        <span id="uploaditems">No Items selected</span>
+                    </div>
+                </div>
+                <br>
+                <h4>Radio Button</h4>
+                <div class="form-check form-check-inline red-color">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Option-1</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Option-2</label>
+                </div>
+                <br><br>
+
+
+                <h4>Checkbox</h4>
+
+                <div class="row">
+                    <div class="col-md-2 m-2 form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Option-1
+                        </label>
+                      </div>
+                      <div class="col-md-2 m-2 form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Option-2
+                        </label>
+                    </div>  
+                </div>
+
+
+                <br>
+                <h4>Snackbar</h4>
+
+                
+
+
+                <div class="row justify-content-around">        
+                      <div class="col-6 alert rounded" style=" width: 47%;" id="alert1">
+                        <img src="images/error-icon.svg" height="25px" width="25px" alt=""> This is an Error Message
+                      </div>
+                      <div class="col-6 alert rounded" style=" width: 47%; " id="alert2">
+                        <img src="images/info-icon.svg" height="25px" width="25px" alt=""> This is an Information Message
+                      </div>                    
+                </div> 
+  
+                <div class="row justify-content-around">
+                        <div class="col-6 alert rounded" style=" width: 47%; "id="alert3">
+                          <img src="images/warning-icon.svg " height="25px" width="25px" alt=""> This is an Warning Message
+                        </div>
+                        <div class="col-6 alert rounded" style=" width: 47%; "id="alert4">
+                          <img src="images/success-icon.svg" height="25px" width="25px" alt=""> This is an Success Message
+                        </div>
+                </div>
+                <br><br>
+                 
+                <h4>Call to Action</h4>
+                 
+                <br>
+                 <div class="row">
+                  <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <button type="button" class="btn btn-primary">Primary</button>
+                      </div>
+                      <div class="col-md-3">
+                        <button type="button" class="btn btn-secondary">Secondary</button>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+
+                 <br>
+                 <h4>
+                  Tabs
+                 </h4>
+                 <br>
+                 <!--
+                 <div class="row">
+                  <div class="col-mg-3">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">
+                            <button type="button" class="selected-tab">tab-1</button>
+                            </th>
+                          <th scope="col">
+                            <button type="button" class="unselected-tab">tab-2</button>
+                          </th>
+                          <th scope="col">
+                            <button type="button" class="unselected-tab">tab-3</button>
+                          </th>
+                        </tr>
+                      </thead>
+                      </table>
+                  </div>
+                 -->
+
+                 <!-- <ul class="nav nav-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link active" rel="tab-1" aria-current="page" href="#" onclick="javascript:ShowMyDiv(this);" >Tab 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" rel="tab-2" href="#" onclick="javascript:ShowMyDiv(this);" >Tab 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" rel="tab-3" href="#" onclick="javascript:ShowMyDiv(this);" >Tab 3</a>
+                  </li>
+                </ul>
+                <div class="row">
+                  <div class="col">
+                    <div class="tabcontents">
+                      <div class="tabcontent" id="tab-1">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, fugit placeat commodi libero harum aliquid quo provident qui aut consequuntur cumque voluptas dolore deserunt fuga eos. Reprehenderit nisi ea dolores!
+                          Doloribus sapiente culpa expedita voluptas aliquam deleniti illo inventore dolor impedit velit, consequuntur nam reiciendis fugit porro ipsam dolore. A ipsa eaque provident vero autem saepe minima magni earum. Adipisci.
+                        </p>
+                      </div>
+                      <div class="tabcontent" id="tab-2">
+                        <p>
+                        Et voluptatem vero, tempora harum modi eveniet consectetur distinctio, possimus ratione perferendis illo reiciendis quo neque corporis mollitia eligendi eaque repudiandae error. Sint in, rerum architecto adipisci quibusdam enim itaque?
+                        Natus delectus nesciunt maiores, placeat voluptatem animi harum quaerat dicta ut soluta fugiat iusto nobis error consequuntur dolorum tempore magni, ratione at? Aperiam quos, cumque odio iusto fugiat aut excepturi.  
+                        </p>
+                      </div>
+                      <div class="tabcontent" id="tab-3">
+                        <p>
+                        Aliquid praesentium, explicabo amet facilis eum molestiae id quae maxime accusantium tempora dicta eius temporibus incidunt asperiores. Officiis sint distinctio libero saepe mollitia quo, sit nam, reiciendis alias eos facilis.
+                        Quidem nemo odio earum eius, dolore sit ducimus beatae illum distinctio, debitis doloremque. Necessitatibus veritatis sed, laudantium quisquam laboriosam sunt maiores. Cumque mollitia error atque dolores unde inventore ipsum commodi.  
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <script>
+                    function ShowMyDiv(Obj){
+                      var elements = document.getElementsByTagName('div');
+                    for (var i = 0; i < elements.length; i++) 
+                      if(elements[i].className=='tabcontent')
+                      elements[i].style.display= 'none';
+
+                    document.getElementById(Obj.rel).style.display= 'block';
+                    //------------------------------------
+
+                      var ul_el = document.getElementById('tab_ul');
+                      var li_el = ul_el.getElementsByTagName('li');
+                    for (var i = 0; i < li_el.length; i++) 
+                      li_el[i].className="";
+
+                    Obj.parentNode.className="selected";
+                    }
+                </script> -->
+            <!---->
+            <div class="tab">
+              <button class="tablinks" onclick="openCity(event, 'tab-1')">Tab 1</button>
+              <button class="tablinks" onclick="openCity(event, 'tab-2')">Tab 2</button>
+              <button class="tablinks" onclick="openCity(event, 'tab-3')">Tab 3</button>
+            </div>
+            
+            <!-- Tab content -->
+            <div id="tab-1" class="tabcontent">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.</p>
+            </div>
+            
+            <div id="tab-2" class="tabcontent">
+              <p>Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.</p>
+            </div>
+            
+            <div id="tab-3" class="tabcontent">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.</p>
+            </div>
+            <!--Adding JS -->
+            <script>
+              function openCity(evt, cityName) {
+                // Declare all variables
+                var i, tabcontent, tablinks;
+              
+                // Get all elements with class="tabcontent" and hide them
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                  tabcontent[i].style.display = "none";
+                }
+              
+                // Get all elements with class="tablinks" and remove the class "active"
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                  tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+              
+                // Show the current tab, and add an "active" class to the button that opened the tab
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+              }
+          </script>
+            </div>
+          </div>
+        </div>
+    
+    </body>
+    </html>
