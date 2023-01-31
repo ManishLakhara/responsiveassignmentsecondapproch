@@ -12,11 +12,9 @@
     margin: auto;
 }
 #mainp{
-    text-align: left;
-    text-align: left;
-    font: normal normal 300 40px/47px Roboto;
-    letter-spacing: 0px;
+    text-decoration: solid;
     color: #3E3E3E;
+    font-weight: bold;
 }
 #mainspan{
     color: #C8242F;
@@ -231,11 +229,15 @@ input[type="radio"]:checked{
     background-color: #C8242F;
     color: white;
     border: white;
+    box-shadow: none;
+    transition: 1ms;
 }
 input[type="checkbox"]:checked{
     background: #C8242F;
     color: white;
     border: white;
+    box-shadow: none;
+    transition: 1ms;
 }
 .iconsize{
     width: "25px";
@@ -282,3 +284,10 @@ input[type="checkbox"]:checked{
   #buttonselected{
     background-color: #FFF3F4;
   }
+  input::file-selector-button {
+    color: #C8242F;
+    padding: 0.5em;
+    border: thin solid red;
+    border-radius: 23px;
+    background-color: white;
+}
