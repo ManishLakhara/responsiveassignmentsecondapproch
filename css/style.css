@@ -284,10 +284,22 @@ input[type="checkbox"]:checked{
   #buttonselected{
     background-color: #FFF3F4;
   }
-  input::file-selector-button {
+  input::file-selector-button{
     color: #C8242F;
     padding: 0.5em;
     border: thin solid red;
     border-radius: 23px;
     background-color: white;
+}
+@media (max-width: 960px) {
+    .noti{display: none; }
+}
+@media (max-width: 767px) {
+    .myheader{display:none;}   
+}
+@media (min-width: 576){
+    .mobileicon{display:none;}
+}
+@media (max-width: 575){
+    .desktopicon{display:none;}
 }
