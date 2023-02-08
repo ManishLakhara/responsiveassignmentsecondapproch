@@ -54,6 +54,19 @@ VALUES (123,'rahul','mumbai',0.12),
 (193,'itachi','delhi',0.13)
 
 
+DSR - 6rd feb 2023 - Manish lakhara
+- SQL Assignment 2 completed ,assignment - 3&4 completed
+- W3school SQL certificate generation complete excersice
+- watched sql server videos over youtube
+
+ In                 Out
+08:50 AM        12:00 PM
+13:00 PM        18:35pm
+
+Leaving for the day.
+
+
+
 
 INSERT INTO `orders`(`ord_no`, `purch_amt`, `ord_date`, `customer_id`, `salesman_id`) 
 VALUES (1,209,'2023-1-12',1,123),
